@@ -98,6 +98,16 @@ a img {
   text-align: left;
 }
 
+/* line 60, ../scss/_scaffolding.scss */
+.preheader {
+  max-height: 0;
+  overflow: hidden;
+  display: none;
+  mso-hide: all;
+  font-size: 11px;
+  color: #666666;
+}
+
 /* line 9, ../scss/_grid.scss */
 .two-column,
 .three-column,

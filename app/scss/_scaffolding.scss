@@ -58,10 +58,8 @@ img {
 //---------------------
 
 .preheader {
-  max-height:0;
-  overflow:hidden;
-  display:none;
-  mso-hide: all;
   font-size:11px; 
-  color: #666666;
+  color: $meta-color;
+  text-align: center;
+  padding-bottom: 0px;
 }

@@ -6,20 +6,19 @@
 // Base colors
 //---------------------
 
-$base-background: #f9f9f9;
+$base-background: #ffffff;
 $base-border: darken($base-background, 5%);
 $content-background: #ffffff;
 $text-color: #444444;
 $heading-color: #333333;
-$primary-color: #900028;
+$primary-color: #700429;
 $meta-color: lighten($text-color, 18%);
 $link-color: $primary-color;
-
 
 // Aside colors
 //---------------------
 
-$aside-background: $base-background;
+$aside-background: #f5f5f5;
 $aside-color: lighten($text-color, 10%);
 
 
@@ -29,6 +28,7 @@ $aside-color: lighten($text-color, 10%);
 $btn-background: $primary-color;
 $btn-color: #ffffff;
 $btn-secondary-background: $aside-background;
+$btn-secondary-border: darken($btn-secondary-background, 30%);
 $btn-secondary-color: lighten($text-color, 7%);
 
 
@@ -51,3 +51,10 @@ $font-size-base: 15px;
 $line-height-base: 1.6;
 $line-height-large: 1.2;
 $line-height-computed: floor($font-size-base * $line-height-base);
+
+
+// Media Queries
+//---------------------
+
+$screen-sm: 460px;
+$screen-xs: 375px;

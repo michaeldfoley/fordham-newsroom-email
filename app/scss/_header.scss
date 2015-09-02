@@ -1,0 +1,45 @@
+// 
+//  Header
+//  ---------------------------------
+
+
+// Header Bar
+//---------------------
+
+.header-bar,
+.header-bar .outer {
+  background: $aside-background;
+}
+
+.header-bar {
+  border-top: 2px solid darken($aside-background, 17%);
+  border-bottom: 2px solid darken($aside-background, 17%);
+  
+  a {
+    color: $text-color;
+  }
+
+  .inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.header-date {
+  text-align: right;
+}
+
+@media screen and(max-width: $screen-sm) {
+  .header-link,
+  .header-date {
+    text-align: center !important;
+  }
+  
+  .header-link {
+    padding-bottom: 0 !important;
+  }
+  
+  .header-date {
+    padding-top: 0 !important;
+  }
+}

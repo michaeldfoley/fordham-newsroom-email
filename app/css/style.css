@@ -160,20 +160,20 @@ a img {
 .three-column .column-2,
 .three-column .column-sixty,
 .three-column .column-fourty,
-.five-column
+.five-column .column,
+.five-column .column-2,
+.five-column .column-sixty,
+.five-column .column-fourty,
 .sixtyfourty-column .column,
-.five-column
 .sixtyfourty-column .column-2,
-.five-column
 .sixtyfourty-column .column-sixty,
-.five-column
 .sixtyfourty-column .column-fourty {
   vertical-align: top;
 }
 /* line 43, ../scss/_grid.scss */
 .two-column .text,
 .three-column .text,
-.five-column
+.five-column .text,
 .sixtyfourty-column .text {
   padding-top: 10px;
 }
@@ -447,10 +447,14 @@ li {
 
 /* line 60, ../scss/_type.scss */
 .lead {
-  font-size: 23px;
+  font-size: 18px;
+}
+/* line 64, ../scss/_type.scss */
+.lead h3 {
+  font-size: 30px;
 }
 
-/* line 68, ../scss/_type.scss */
+/* line 71, ../scss/_type.scss */
 small {
   color: #777777;
   font-size: 85%;

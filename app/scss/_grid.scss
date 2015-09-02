@@ -56,6 +56,10 @@
 	}
 }
 
+.image {
+  text-align: center;
+}
+
 
 // Two column layout
 //---------------------
@@ -191,7 +195,7 @@
 		max-width: 100% !important;
 	}
 	.three-column img {
-		max-width: 50% !important;
+		max-width: 100% !important;
 	}
 	
 	.sixtyfourty-column {
@@ -210,7 +214,7 @@
   	}
     
   	.column-fourty img {
-  		max-width: 50% !important;
+  		max-width: 100% !important;
 		}
 	}
 	.sidebar .main {
@@ -220,6 +224,9 @@
   	.contents {
     	text-align: center !important;
   	}
+	}
+	.image {
+  	padding-bottom: 0 !important;
 	}
 }
 @media screen and(min-width: $screen-sm + 1) and(max-width: 620px) {

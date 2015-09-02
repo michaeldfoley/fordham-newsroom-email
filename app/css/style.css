@@ -58,7 +58,7 @@ p {
 /* line 9, ../scss/_scaffolding.scss */
 a {
   text-decoration: none;
-  color: #700429;
+  color: #900028;
 }
 
 /* line 14, ../scss/_scaffolding.scss */
@@ -187,91 +187,96 @@ a img {
   max-width: 150px;
 }
 
-/* line 65, ../scss/_grid.scss */
+/* line 59, ../scss/_grid.scss */
+.image {
+  text-align: center;
+}
+
+/* line 69, ../scss/_grid.scss */
 .two-column .column {
   max-width: 300px;
 }
-/* line 69, ../scss/_grid.scss */
+/* line 73, ../scss/_grid.scss */
 .two-column img {
   max-width: 270px;
 }
 
-/* line 80, ../scss/_grid.scss */
+/* line 84, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty {
   max-width: 360px;
 }
-/* line 83, ../scss/_grid.scss */
+/* line 87, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty img {
   max-width: 330px;
 }
-/* line 87, ../scss/_grid.scss */
+/* line 91, ../scss/_grid.scss */
 .sixtyfourty-column .column-sixty .inner td {
   width: 340px;
   max-width: 100%;
 }
-/* line 93, ../scss/_grid.scss */
+/* line 97, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty {
   max-width: 240px;
 }
-/* line 96, ../scss/_grid.scss */
+/* line 100, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty img {
   max-width: 210px;
 }
-/* line 100, ../scss/_grid.scss */
+/* line 104, ../scss/_grid.scss */
 .sixtyfourty-column .column-fourty .inner td {
   width: 340px;
   max-width: 100%;
 }
 
-/* line 113, ../scss/_grid.scss */
+/* line 117, ../scss/_grid.scss */
 .three-column .column {
   max-width: 200px;
 }
-/* line 116, ../scss/_grid.scss */
+/* line 120, ../scss/_grid.scss */
 .three-column .column .contents {
   text-align: center;
 }
-/* line 121, ../scss/_grid.scss */
+/* line 125, ../scss/_grid.scss */
 .three-column .column-2 {
   max-width: 400px;
 }
-/* line 125, ../scss/_grid.scss */
+/* line 129, ../scss/_grid.scss */
 .three-column img {
   max-width: 170px;
 }
-/* line 129, ../scss/_grid.scss */
+/* line 133, ../scss/_grid.scss */
 .three-column .column-2 img {
   max-width: 370px;
 }
 
-/* line 140, ../scss/_grid.scss */
+/* line 144, ../scss/_grid.scss */
 .five-column .column {
   max-width: 120px;
 }
-/* line 143, ../scss/_grid.scss */
+/* line 147, ../scss/_grid.scss */
 .five-column .column .contents {
   text-align: center;
 }
-/* line 148, ../scss/_grid.scss */
+/* line 152, ../scss/_grid.scss */
 .five-column img {
   max-width: 90px;
 }
 
-/* line 159, ../scss/_grid.scss */
+/* line 163, ../scss/_grid.scss */
 .sidebar .aside {
   max-width: 180px;
 }
-/* line 163, ../scss/_grid.scss */
+/* line 167, ../scss/_grid.scss */
 .sidebar .aside-sm {
   max-width: 102px;
 }
-/* line 167, ../scss/_grid.scss */
+/* line 171, ../scss/_grid.scss */
 .sidebar .main {
   max-width: 318px;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 182, ../scss/_grid.scss */
+  /* line 186, ../scss/_grid.scss */
   .two-column .column,
   .two-column .column-2,
   .two-column .column-sixty,
@@ -292,85 +297,90 @@ a img {
     display: table !important;
   }
 
-  /* line 190, ../scss/_grid.scss */
+  /* line 194, ../scss/_grid.scss */
   .two-column img {
     max-width: 100% !important;
   }
 
-  /* line 193, ../scss/_grid.scss */
+  /* line 197, ../scss/_grid.scss */
   .three-column img {
-    max-width: 50% !important;
+    max-width: 100% !important;
   }
 
-  /* line 199, ../scss/_grid.scss */
+  /* line 203, ../scss/_grid.scss */
   .sixtyfourty-column .inner {
     width: 460px !important;
     max-width: 100% !important;
   }
-  /* line 203, ../scss/_grid.scss */
+  /* line 207, ../scss/_grid.scss */
   .sixtyfourty-column .inner td {
     width: 440px !important;
     max-width: 100% !important;
   }
-  /* line 208, ../scss/_grid.scss */
+  /* line 212, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty img {
     max-width: 100% !important;
   }
-  /* line 212, ../scss/_grid.scss */
+  /* line 216, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty img {
-    max-width: 50% !important;
+    max-width: 100% !important;
   }
 
-  /* line 216, ../scss/_grid.scss */
+  /* line 220, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 100% !important;
     display: table !important;
   }
-  /* line 220, ../scss/_grid.scss */
+  /* line 224, ../scss/_grid.scss */
   .sidebar .main .contents {
     text-align: center !important;
   }
+
+  /* line 228, ../scss/_grid.scss */
+  .image {
+    padding-bottom: 0 !important;
+  }
 }
 @media screen and (min-width: 461px) and (max-width: 620px) {
-  /* line 229, ../scss/_grid.scss */
+  /* line 236, ../scss/_grid.scss */
   .sixtyfourty-column .column-sixty {
     max-width: 60% !important;
   }
-  /* line 233, ../scss/_grid.scss */
+  /* line 240, ../scss/_grid.scss */
   .sixtyfourty-column .column-fourty {
     max-width: 40% !important;
   }
 
-  /* line 240, ../scss/_grid.scss */
+  /* line 247, ../scss/_grid.scss */
   .three-column .column {
     max-width: 33% !important;
   }
-  /* line 244, ../scss/_grid.scss */
+  /* line 251, ../scss/_grid.scss */
   .three-column .column-2 {
     max-width: 67% !important;
   }
 
-  /* line 249, ../scss/_grid.scss */
+  /* line 256, ../scss/_grid.scss */
   .two-column .column {
     max-width: 50% !important;
   }
 
-  /* line 253, ../scss/_grid.scss */
+  /* line 260, ../scss/_grid.scss */
   .five-column .column {
     max-width: 20% !important;
   }
 
-  /* line 257, ../scss/_grid.scss */
+  /* line 264, ../scss/_grid.scss */
   .sidebar .aside {
     max-width: 30% !important;
   }
 
-  /* line 261, ../scss/_grid.scss */
+  /* line 268, ../scss/_grid.scss */
   .sidebar .aside-sm {
     max-width: 17% !important;
   }
 
-  /* line 265, ../scss/_grid.scss */
+  /* line 272, ../scss/_grid.scss */
   .sidebar .main {
     max-width: 53% !important;
   }
@@ -385,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 14, ../scss/_type.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   text-decoration: none;
-  color: #700429 !important;
+  color: #900028 !important;
 }
 
 /* line 20, ../scss/_type.scss */

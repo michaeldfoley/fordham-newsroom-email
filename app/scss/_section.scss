@@ -1,0 +1,36 @@
+// 
+//  Section
+//  ---------------------------------
+
+
+.section,
+.section .outer {
+  background: $aside-background;
+}
+
+.section {
+  color: $aside-color;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  .two-column .inner {
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+  
+  h5 {
+    Margin-bottom: 0;
+    
+    a {
+      color: $text-color;
+    }
+  }
+}
+
+.section-header h4 {
+  Margin-bottom: 0;
+  
+  a {
+    color: $text-color;
+  }
+}

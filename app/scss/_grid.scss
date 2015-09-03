@@ -161,15 +161,11 @@
 .sidebar {
 	
 	.aside {
-		max-width: 180px;
-	}
-	
-	.aside-sm {
-		max-width: 102px;
+		max-width: 80px;
 	}
 	
 	.main {
-		max-width: 318px;
+		max-width: 520px;
 	}
 }
 
@@ -218,13 +214,10 @@
   		max-width: 100% !important;
 		}
 	}
-	.sidebar .main {
+	.sidebar .main,
+	.sidebar .aside {
 		max-width: 100% !important;
 		display: table !important;
-  	
-  	.contents {
-    	text-align: center !important;
-  	}
 	}
 	.image {
   	padding-bottom: 0 !important;
@@ -263,14 +256,10 @@
 	}
 	
 	.sidebar .aside {
-  	max-width: 30% !important;
-	}
-	
-	.sidebar .aside-sm {
-  	max-width: 17% !important;
+  	max-width: 15% !important;
 	}
 	
 	.sidebar .main {
-  	max-width: 53% !important;
+  	max-width: 85% !important;
 	}
 }

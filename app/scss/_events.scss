@@ -1,0 +1,50 @@
+// 
+//  Events
+//  ---------------------------------
+
+
+.event {
+  padding-bottom: 15px;
+}
+
+.event .inner {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.event-date {
+  border: 1px solid #5b6f7b;
+  padding: 9px;
+  width: 30px;
+  text-align: center;
+}
+
+.event-month {
+  font-size: floor($font-size-base * .9);
+  line-height: 1;
+  Margin-bottom: 3px;
+}
+
+.event-day {
+  font-size: floor($font-size-base * 1.5);
+  line-height: 1;
+}
+
+@media screen and(max-width: $screen-sm) {
+  
+  .event-date {
+    border: none !important;
+    width: auto !important;
+    padding: 0 !important;
+    font-weight: 600 !important;
+    text-align: left !important;
+  }
+  
+  .event-month,
+  .event-day {
+    font-size: $font-size-base !important;
+    line-height: $line-height-base !important;
+    display: inline !important;
+    Margin-bottom: 0px !important;
+  }
+}

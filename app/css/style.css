@@ -495,8 +495,8 @@ small {
 }
 /* line 29, ../scss/_header.scss */
 .header-bar .inner {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* line 34, ../scss/_header.scss */
 .header-bar .contents {
@@ -508,21 +508,36 @@ small {
   text-align: right;
 }
 
+/* line 43, ../scss/_header.scss */
+.header-social {
+  line-height: 1;
+}
+/* line 46, ../scss/_header.scss */
+.header-social img {
+  width: 24px;
+  Margin-right: 4px;
+}
+
 @media screen and (max-width: 460px) {
-  /* line 44, ../scss/_header.scss */
-  .header-link,
+  /* line 53, ../scss/_header.scss */
+  .header-social,
   .header-date {
     text-align: center !important;
   }
 
-  /* line 49, ../scss/_header.scss */
-  .header-link {
-    padding-bottom: 0 !important;
+  /* line 58, ../scss/_header.scss */
+  .header-social {
+    padding-top: 0 !important;
+  }
+  /* line 61, ../scss/_header.scss */
+  .header-social img {
+    Margin-left: 2px !important;
+    Margin-right: 2px !important;
   }
 
-  /* line 53, ../scss/_header.scss */
+  /* line 67, ../scss/_header.scss */
   .header-date {
-    padding-top: 0 !important;
+    padding-bottom: 5px !important;
   }
 }
 /* line 6, ../scss/_aside.scss */

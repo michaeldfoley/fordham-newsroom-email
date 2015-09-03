@@ -27,8 +27,8 @@
   }
 
   .inner {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   .contents {
@@ -40,17 +40,31 @@
   text-align: right;
 }
 
+.header-social {
+  line-height: 1;
+  
+  img {
+    width: 24px;
+    Margin-right: 4px;
+  }
+}
+
 @media screen and(max-width: $screen-sm) {
-  .header-link,
+  .header-social,
   .header-date {
     text-align: center !important;
   }
   
-  .header-link {
-    padding-bottom: 0 !important;
+  .header-social {
+    padding-top: 0 !important;
+    
+    img {
+      Margin-left: 2px !important;
+      Margin-right: 2px !important;
+    }
   }
   
   .header-date {
-    padding-top: 0 !important;
+    padding-bottom: 5px !important;
   }
 }

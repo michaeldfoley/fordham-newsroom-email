@@ -19,7 +19,7 @@ $link-color: $primary-color;
 //---------------------
 
 $aside-background: #f5f5f5;
-$aside-color: lighten($text-color, 10%);
+$aside-color: $text-color;
 
 
 // Button colors

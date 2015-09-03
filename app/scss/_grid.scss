@@ -191,11 +191,12 @@
 			display: table !important;
   	}
   }
-	.two-column img {
-		max-width: 100% !important;
-	}
-	.three-column img {
-		max-width: 100% !important;
+  .one-column,
+	.two-column,
+	.three-column {
+    img {
+      max-width: 100% !important;
+    }
 	}
 	
 	.sixtyfourty-column {

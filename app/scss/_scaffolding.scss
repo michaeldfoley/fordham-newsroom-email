@@ -34,12 +34,15 @@ img {
   display: block;
 }
 
-.full-width-image img {
-	width: 100%;
-	max-width: 600px;
-	height: auto;
+.full-width-image {
+  padding-left: 15px;
+  padding-right: 15px;
+  img {
+  	width: 100%;
+  	max-width: 570px;
+  	height: auto;
+  }
 }
-
 
 // Default content
 //---------------------

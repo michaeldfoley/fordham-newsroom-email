@@ -1,6 +1,6 @@
-# Email Base
+# Fordham Newsroom Weekly Email
 
-This is a responsive starter email template that works across the major browsers/clients/devices. The template is based off of Nicole Merlin's [Creating a Future-Proof Responsive Email Without Media Queries](http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919). The workflow is based off of Marco Solazzi's [Grunt Email Boilerplate](https://github.com/dwightjack/grunt-email-boilerplate).
+This is a responsive email template that works across the major browsers/clients/devices.
 
 ## Features
 
@@ -22,12 +22,11 @@ This is a responsive starter email template that works across the major browsers
 1. install all required dependencies (see above)
 
 2. clone this git repo
-
-	`git clone git://github.com/michaeldfoley/email-base.git`
+	`git clone git://michaeldfoley/fordham-newsroom-email.git`
 
 3. install node dependencies:
 	
-	`cd email-base`
+	`cd fordham-newsroom-email`
 
 	`npm install`
 
@@ -48,7 +47,11 @@ Sources are located in the `app` folder:
 	* `_scaffolding.scss`: base styles
 	* `_grid.scss`: the 1-column, 2-column, and 3-column layouts as well as a sidebar layout
 	* `_type.scss`: typographic styles
-	* `style.scss`: glue stylesheet, add the additional partials you create here
+	* `_events.scss`: event listings
+	* `_footer.scss`: CAN-SPAM compliant footer styles
+	* `_header.scss`: header image, social media links, and date bar
+	* `_section.scss`: Inside Fordham section styles
+	* `style.scss`: glue stylesheet, add any additional partials you create here
 * `img`: source images of your email
 * `css`: generated css from scss files. Don't edit this directly
 

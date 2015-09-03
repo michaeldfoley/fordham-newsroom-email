@@ -552,41 +552,39 @@ small {
   padding-bottom: 15px;
 }
 
-/* line 6, ../scss/_section.scss */
-.section,
-.section .outer {
-  background: #f5f5f5;
-}
-
 /* line 11, ../scss/_section.scss */
 .section {
   color: #444444;
-  padding-top: 15px;
   padding-bottom: 25px;
 }
-/* line 16, ../scss/_section.scss */
+/* line 15, ../scss/_section.scss */
+.section .outer {
+  border-top: 1px dashed #cccccc;
+  padding-top: 15px;
+}
+/* line 20, ../scss/_section.scss */
 .section .two-column .inner {
   padding-top: 0px;
   padding-bottom: 25px;
 }
-/* line 21, ../scss/_section.scss */
+/* line 25, ../scss/_section.scss */
 .section h5 {
   Margin-bottom: 0;
 }
-/* line 24, ../scss/_section.scss */
+/* line 28, ../scss/_section.scss */
 .section h5 a {
   color: #444444;
 }
 
-/* line 30, ../scss/_section.scss */
+/* line 34, ../scss/_section.scss */
 .section-header {
   padding-bottom: 20px;
 }
-/* line 33, ../scss/_section.scss */
+/* line 37, ../scss/_section.scss */
 .section-header h4 {
   Margin-bottom: 0;
 }
-/* line 36, ../scss/_section.scss */
+/* line 40, ../scss/_section.scss */
 .section-header h4 a {
   color: #444444;
 }
@@ -605,7 +603,7 @@ small {
 
 /* line 16, ../scss/_events.scss */
 .event-date {
-  border: 1px solid #5b6f7b;
+  border: 1px solid #444444;
   padding: 9px;
   width: 30px;
   text-align: center;

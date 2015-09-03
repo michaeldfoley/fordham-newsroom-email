@@ -27,10 +27,14 @@
   }
 }
 
-.section-header h4 {
-  Margin-bottom: 0;
+.section-header {
+  padding-bottom: 20px;
   
-  a {
-    color: $text-color;
+  h4 {
+    Margin-bottom: 0;
+    
+    a {
+      color: $text-color;
+    }
   }
 }

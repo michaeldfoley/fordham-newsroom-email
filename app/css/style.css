@@ -560,26 +560,31 @@ small {
 }
 
 /* line 30, ../scss/_section.scss */
+.section-header {
+  padding-bottom: 20px;
+}
+/* line 33, ../scss/_section.scss */
 .section-header h4 {
   Margin-bottom: 0;
 }
-/* line 33, ../scss/_section.scss */
+/* line 36, ../scss/_section.scss */
 .section-header h4 a {
   color: #444444;
 }
 
 /* line 6, ../scss/_events.scss */
 .event {
-  padding-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
-/* line 10, ../scss/_events.scss */
+/* line 11, ../scss/_events.scss */
 .event .inner {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* line 15, ../scss/_events.scss */
+/* line 16, ../scss/_events.scss */
 .event-date {
   border: 1px solid #5b6f7b;
   padding: 9px;
@@ -587,21 +592,21 @@ small {
   text-align: center;
 }
 
-/* line 22, ../scss/_events.scss */
+/* line 23, ../scss/_events.scss */
 .event-month {
   font-size: 13px;
   line-height: 1;
   Margin-bottom: 3px;
 }
 
-/* line 28, ../scss/_events.scss */
+/* line 29, ../scss/_events.scss */
 .event-day {
   font-size: 22px;
   line-height: 1;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 35, ../scss/_events.scss */
+  /* line 36, ../scss/_events.scss */
   .event-date {
     border: none !important;
     width: auto !important;
@@ -610,7 +615,7 @@ small {
     text-align: left !important;
   }
 
-  /* line 43, ../scss/_events.scss */
+  /* line 44, ../scss/_events.scss */
   .event-month,
   .event-day {
     font-size: 15px !important;

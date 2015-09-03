@@ -14,7 +14,8 @@
 }
 
 .event-date {
-  border: 1px solid $text-color;
+  background: $aside-background;
+  color: $aside-color;
   padding: 9px;
   width: 30px;
   text-align: center;
@@ -34,7 +35,8 @@
 @media screen and(max-width: $screen-sm) {
   
   .event-date {
-    border: none !important;
+    background: none !important;
+    color: $text-color !important;
     width: auto !important;
     padding: 0 !important;
     font-weight: 600 !important;

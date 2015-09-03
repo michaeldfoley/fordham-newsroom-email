@@ -474,13 +474,13 @@ small {
 /* line 16, ../scss/_header.scss */
 .header-bar,
 .header-bar .outer {
-  background: #f5f5f5;
+  background: #eeeeee;
 }
 
 /* line 21, ../scss/_header.scss */
 .header-bar {
-  border-top: 2px solid #cacaca;
-  border-bottom: 2px solid #cacaca;
+  border-top: 2px solid #c3c3c3;
+  border-bottom: 2px solid #c3c3c3;
 }
 /* line 25, ../scss/_header.scss */
 .header-bar a {
@@ -603,36 +603,38 @@ small {
 
 /* line 16, ../scss/_events.scss */
 .event-date {
-  border: 1px solid #444444;
+  background: #eeeeee;
+  color: #444444;
   padding: 9px;
   width: 30px;
   text-align: center;
 }
 
-/* line 23, ../scss/_events.scss */
+/* line 24, ../scss/_events.scss */
 .event-month {
   font-size: 13px;
   line-height: 1;
   Margin-bottom: 3px;
 }
 
-/* line 29, ../scss/_events.scss */
+/* line 30, ../scss/_events.scss */
 .event-day {
   font-size: 22px;
   line-height: 1;
 }
 
 @media screen and (max-width: 460px) {
-  /* line 36, ../scss/_events.scss */
+  /* line 37, ../scss/_events.scss */
   .event-date {
-    border: none !important;
+    background: none !important;
+    color: #444444 !important;
     width: auto !important;
     padding: 0 !important;
     font-weight: 600 !important;
     text-align: left !important;
   }
 
-  /* line 44, ../scss/_events.scss */
+  /* line 46, ../scss/_events.scss */
   .event-month,
   .event-day {
     font-size: 15px !important;

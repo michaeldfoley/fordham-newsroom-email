@@ -3,19 +3,7 @@
 //  ---------------------------------
 
 
-.section,
-.section .outer {
-  //background: $aside-background;
-}
-
 .section {
-  color: $aside-color;
-  padding-bottom: 25px;
-  
-  .outer {
-    border-top: 1px dashed #cccccc;
-    padding-top: 15px;
-  }
   
   .two-column .inner {
     padding-top: 0px;
@@ -31,6 +19,11 @@
   }
 }
 
+.section-hr {
+  border-top: 1px dashed #cccccc;
+  padding-top: 15px;
+}
+
 .section-header {
   padding-bottom: 20px;
   
@@ -41,4 +34,9 @@
       color: $text-color;
     }
   }
+}
+
+.section-list {
+  padding-left: 15px;
+  Margin-bottom: 0;
 }

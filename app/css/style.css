@@ -591,8 +591,7 @@ small {
 
 /* line 46, ../scss/_section.scss */
 .section-list {
-  list-style: none;
-  padding-left: 0;
+  padding-left: 15px;
   Margin-bottom: 0;
 }
 

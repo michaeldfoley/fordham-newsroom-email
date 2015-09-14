@@ -586,9 +586,16 @@ small {
 }
 
 /* line 39, ../scss/_section.scss */
-.section-list {
+.section-list ul {
   padding-left: 15px;
   Margin-bottom: 0;
+}
+@media screen and (max-width: 460px) {
+  /* line 39, ../scss/_section.scss */
+  .section-list ul {
+    padding-top: 25px !important;
+    padding-left: 25px !important;
+  }
 }
 
 /* line 6, ../scss/_events.scss */

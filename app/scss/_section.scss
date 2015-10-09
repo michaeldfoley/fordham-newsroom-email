@@ -45,3 +45,26 @@
     padding-left: 25px !important;
   }
 }
+
+.section-quote,
+.section-quote .outer {
+  background-color: $aside-background;
+}
+
+.section-quote {
+  h4 a {
+    color: $text-color;
+  }
+  blockquote {
+    font-size: floor($font-size-base * 1.3);
+    text-align: center;
+    Margin: 0;
+    Margin-bottom: $line-height-computed;
+    text-align: left;
+  }
+}
+.section-quote--author {
+  Margin-bottom: $line-height-computed;
+  font-size: floor($font-size-base * .8);
+  text-transform: uppercase;
+}

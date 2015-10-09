@@ -605,10 +605,14 @@ small {
 }
 
 /* line 55, ../scss/_section.scss */
+.section-quote h4 {
+  Margin-bottom: 25px;
+}
+/* line 58, ../scss/_section.scss */
 .section-quote h4 a {
   color: #444444;
 }
-/* line 58, ../scss/_section.scss */
+/* line 62, ../scss/_section.scss */
 .section-quote blockquote {
   font-size: 19px;
   text-align: center;
@@ -617,7 +621,7 @@ small {
   text-align: left;
 }
 
-/* line 66, ../scss/_section.scss */
+/* line 70, ../scss/_section.scss */
 .section-quote--author {
   Margin-bottom: 24px;
   font-size: 12px;

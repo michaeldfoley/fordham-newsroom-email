@@ -52,8 +52,12 @@
 }
 
 .section-quote {
-  h4 a {
-    color: $text-color;
+  h4 {
+    Margin-bottom: 25px;
+    
+    a {
+      color: $text-color;
+    }
   }
   blockquote {
     font-size: floor($font-size-base * 1.3);

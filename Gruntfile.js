@@ -14,7 +14,7 @@ module.exports = function (grunt) {
             src: 'app',
             email: 'index.html',
             txt: 'index.txt',
-            distDomain: '', 
+            distDomain: 'http://hosting-source.bm23.com/16533/public/Newsroom/test/', 
         		sender: {
           		service: '',
           		user: '',
